@@ -1,8 +1,8 @@
 import React from "react";
 import './input.css'
 
-export const Input = ({placeholder, required, onChange, value})=>{
+export const Input = ({placeholder, required, onChange, value,type})=>{
     return(
-        <input onChange={onChange} value={value} placeholder={placeholder} required={required} className="ui_input"/>
+        <input type={type} onChange={onChange} value={value} placeholder={placeholder} required={required} className="ui_input"/>
     )
 }

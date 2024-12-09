@@ -12,6 +12,7 @@
     
 }
 .auth_form{
+width: 400px;
 background-color: white;
 padding: 30px;
 border-radius: 5px;
@@ -56,4 +57,15 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-weight: 500;
     color: grey;
 
+}
+.auth_options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 14px;
+}
+.auth_options a{
+    text-decoration: none;
+    color: #165ef0;
 }
